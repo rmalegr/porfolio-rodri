@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { HiArrowRight } from "react-icons/hi";
 import "./home.css";
 const Home = () => {
@@ -16,7 +17,8 @@ const Home = () => {
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
           Im a full-stack developer in building and occasionally designing
           exceptional digital experiences. Currently , Im focuserd on building
-          responsive full-stack web applicatins
+          responsive full-stack web applications
+          
         </p>
         <div>
           <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 '>

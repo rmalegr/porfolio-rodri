@@ -14,7 +14,10 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full   h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div
+      className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f]
+    text-gray-300'
+    >
       <div>
         <img src={logo} alt='logo Image' style={{ width: "50px" }} />
       </div>
@@ -39,7 +42,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : " absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : " absolute top-0 left-3 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
         <li className='py-6 text-4xl'>Home</li>
@@ -47,6 +50,7 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>Skill</li>
         <li className='py-6 text-4xl'>Work</li>
         <li className='py-6 text-4xl'>Contact</li>
+
       </ul>
 
       {/* social icons  */}
@@ -60,7 +64,10 @@ const Navbar = () => {
               Linkendin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center  ml-[-100px] hover:ml-[-10px] duration-300  bg-blue-400'>
+          <li
+            className='w-[160px] h-[60px] flex justify-between items-center 
+           ml-[-100px] hover:ml-[-10px] duration-300  bg-blue-400'
+          >
             <a
               className='flex justify-between items-center w-full text-gray'
               href='/'
