@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { HiArrowRight } from "react-icons/hi";
 import "./home.css";
 const Home = () => {
